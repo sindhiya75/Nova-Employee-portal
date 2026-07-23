@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "NOVA+ Employee Portal",
+    "slug": "nova-employee-portal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1B2A4A"
+    },
+    "android": {
+      "package": "com.nova.employeeportal"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nova.employeeportal",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "NOVA+ uses your location to record GPS coordinates with daily work logs."
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow NOVA+ to record GPS coordinates with daily work logs."
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}
