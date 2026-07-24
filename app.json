@@ -9,7 +9,11 @@
       "backgroundColor": "#1B2A4A"
     },
     "android": {
-      "package": "com.nova.employeeportal"
+      "package": "com.nova.employeeportal",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
     },
     "ios": {
       "supportsTablet": true,
@@ -26,6 +30,11 @@
         }
       ],
       "expo-secure-store"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "df76bd06-0327-44b8-b635-e2f5a4846bd3"
+      }
+    }
   }
 }
